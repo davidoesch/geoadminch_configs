@@ -29,13 +29,80 @@ Nota bene:
 Configurations files have the following structure
 
     <base url>/configs
-                      /service.json
+                      /services.json
                       /<lang>/layersConfig.json
                       /<lang>/catalog.<topic>.json
     
 
 Currently, localisation files are stored elsewhere, so it not possible to add completely new and translated layers.
 
+
+### services.json
+
+This file described which `topics` are available, which layers are selected and/or activated. This file is not translated.
+
+    {
+      "defaultBackground": "voidLayer",
+      "plConfig": "https://map.geo.admin.ch/?topic=meteoschweiz&bgLayer=voidLayer&layers=ch.bafu.gefahren-basiskarte&layers_opacity=0.7&layers_visibility=true",
+      "selectedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "id": "meteoschweiz"
+    }
+
+### catalog.<topic>.json
+
+This file describe a catalog for every topic listed in the `services.json` 
+
+    "root": {
+      "category": "root",
+      "staging": "prod",
+      "id": 15006,
+      "children": [
+        {
+          "category": "topic",
+          "staging": "prod",
+          "selectedOpen": false,
+          "children": [
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Zeitreise - Kartenwerke",
+                  "layerBodId": "ch.swisstopo.zeitreihen",
+                  "id": 63843
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Einteilung Geologischer Atlas 25 Vector",
+                  "layerBodId": "ch.swisstopo.geologie-geologischer_atlas_vector.metadata",
+                  "id": 76357344
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Landeskarte 1:1 Million | LK1000",
+                  "layerBodId": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale",
+                  "id": 63842
+                },
+
+### layersConfig.json
+
+This files is the layer configuration. There are three layer type: `WMTS`, `WMS` and `GeoJSON`.
 
 # Examples
 
@@ -70,7 +137,7 @@ simply make the `styleUrl` or `geojsonUrl` point on a different location.
         "hasLegend": true, 
         "type": "geojson",
         "timeEnabled": false 
-      },
+      }
 
 Using a reddish and italic style for labels, and a triangle instead of circle to mark station locations.
 
@@ -81,3 +148,34 @@ https://map.geo.admin.ch/?topic=meteoschweiz&config_url=%2F%2Fpublic.dev.bgdi.ch
 
 
 Just compare with the [original style](https://map.geo.admin.ch/?topic=meteoschweiz&lang=de&layers=ch.meteoschweiz.messwerte-lufttemperatur-10min&bgLayer=ch.swisstopo.pixelkarte-farbe&E=2582506.29&N=1185883.68&zoom=3&catalogNodes=15046,15055)
+
+
+See [Geoadmin Vector Styles Specification](https://github.com/geoadmin/mf-geoadmin3/blob/master/JSONSTYLES.md)
+
+
+## External WMS layer
+
+
+
+   "bln": {
+       "wmsLayers": "ch.bafu.bundesinventare-bln",
+       "attribution": "bafu",
+       "chargeable": false,
+       "searchable": false,
+       "format": "png",
+       "serverLayerName": "ch.bafu.bundesinventare-bln",
+       "wmsUrl": "https://wms.geo.admin.ch",
+       "attributionUrl": "https://www.bafu.admin.ch/bafu/de/home/themen/landschaft/fachinformationen/landschaftsqualitaet-erhalten-und-entwickeln/landschaften-von-nationaler-bedeutung/bundesinventar-der-landschaften-und-naturdenkmaeler-von-national.html",
+       "tooltip": true,
+       "label": "Bundesinventar der Landschaften und Naturdenkmäler",
+       "singleTile": true,
+       "highlightable": false,
+       "background": false,
+       "topics": "ech",
+       "hasLegend": false,
+       "type": "wms",
+       "timeEnabled": false
+    }
+
+
+https://map.geo.admin.ch?lang=de&topic=ech&config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Fexternal-wms&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=bln
