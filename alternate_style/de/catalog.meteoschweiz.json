@@ -1,0 +1,325 @@
+{
+  "results": {
+    "root": {
+      "category": "root",
+      "staging": "prod",
+      "id": 15045,
+      "children": [
+        {
+          "category": "topic",
+          "staging": "prod",
+          "selectedOpen": true,
+          "children": [
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Temperatur 2m",
+                  "layerBodId": "ch.meteoschweiz.messwerte-lufttemperatur-10min",
+                  "id": 130009290
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Max. Temperatur 2m, 24h",
+                  "layerBodId": "ch.meteoschweiz.messwerte-lufttemperatur-24h-max-1h",
+                  "id": 130009292
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Min. Temperatur 2m, 24h",
+                  "layerBodId": "ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h",
+                  "id": 130009294
+                }
+              ],
+              "label": "Temperatur",
+              "id": 15047
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Luftfeuchtigkeit",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftfeuchtigkeit-10min",
+                  "id": 130009296
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Taupunkt",
+                  "layerBodId": "ch.meteoschweiz.messwerte-taupunkt-10min",
+                  "id": 130009298
+                }
+              ],
+              "label": "Feuchte",
+              "id": 15048
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Niederschlag, 10min",
+                  "layerBodId": "ch.meteoschweiz.messwerte-niederschlag-10min",
+                  "id": 130009300
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Niederschlag, 1h",
+                  "layerBodId": "ch.meteoschweiz.messwerte-niederschlag-1h",
+                  "id": 130009302
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Niederschlag, 1 Tag",
+                  "layerBodId": "ch.meteoschweiz.messwerte-niederschlag-1d",
+                  "id": 130009304
+                }
+              ],
+              "label": "Niederschlag",
+              "id": 15049
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Neuschnee",
+                  "layerBodId": "ch.meteoschweiz.messwerte-neuschnee-1d",
+                  "id": 130009306
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Schneehöhe",
+                  "layerBodId": "ch.meteoschweiz.messwerte-gesamtschnee-1d",
+                  "id": 130009308
+                }
+              ],
+              "label": "Schnee",
+              "id": 15050
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Luftdruck Station QFE",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftdruck-qfe-10min",
+                  "id": 130009310
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Luftdruck reduziert QNH",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftdruck-qnh-10min",
+                  "id": 130009314
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Luftdruck reduziert QFF",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftdruck-qff-10min",
+                  "id": 130009312
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Geopotentielle Höhe 850 hPa-Fläche",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min",
+                  "id": 130009316
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Geopotentielle Höhe 700 hPa-Fläche",
+                  "layerBodId": "ch.meteoschweiz.messwerte-luftdruck-700hpa-flaeche-10min",
+                  "id": 130009318
+                }
+              ],
+              "label": "Druck",
+              "id": 15051
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Windgeschwindigkeit",
+                  "layerBodId": "ch.meteoschweiz.messwerte-windgeschwindigkeit-kmh-10min",
+                  "id": 130009320
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Windböen",
+                  "layerBodId": "ch.meteoschweiz.messwerte-wind-boeenspitze-kmh-10min",
+                  "id": 130009322
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Föhnindex",
+                  "layerBodId": "ch.meteoschweiz.messwerte-foehn-10min",
+                  "id": 130012689
+                }
+              ],
+              "label": "Wind",
+              "id": 15052
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Sonnenscheindauer",
+                  "layerBodId": "ch.meteoschweiz.messwerte-sonnenscheindauer-10min",
+                  "id": 130012691
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Sonnenschein rel., 1 Tag",
+                  "layerBodId": "ch.meteoschweiz.messwerte-sonnenscheindauer-relativ-1d",
+                  "id": 130012693
+                }
+              ],
+              "label": "Sonnenschein",
+              "id": 15053
+            },
+            {
+              "category": "topic",
+              "staging": "prod",
+              "selectedOpen": false,
+              "children": [
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Globalstrahlung",
+                  "layerBodId": "ch.meteoschweiz.messwerte-globalstrahlung-10min",
+                  "id": 130012695
+                },
+                {
+                  "category": "layer",
+                  "staging": "prod",
+                  "label": "Messwerte Globalstrahlung, 1 Tag",
+                  "layerBodId": "ch.meteoschweiz.messwerte-globalstrahlung-1d",
+                  "id": 130012697
+                }
+              ],
+              "label": "Globalstrahlung",
+              "id": 15054
+            }
+          ],
+          "label": "Messwerte",
+          "id": 15046
+        },
+        {
+          "category": "topic",
+          "staging": "prod",
+          "selectedOpen": true,
+          "children": [
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Automatische Wetterstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-automatisch",
+              "id": 130012699
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Atmosphärenstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-atmosphaere",
+              "id": 130012701
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Manuelle Niederschlagsmessstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-manuell",
+              "id": 130012703
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Wetterkameras",
+              "layerBodId": "ch.meteoschweiz.messnetz-webcams",
+              "id": 130012705
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Meteorologische Beobachtungen",
+              "layerBodId": "ch.meteoschweiz.messnetz-beobachtungen",
+              "id": 130012707
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Pollenstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-pollen",
+              "id": 130012709
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Phänologische Beobachtungen",
+              "layerBodId": "ch.meteoschweiz.messnetz-phaenologie",
+              "id": 130012711
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Flugplatzstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-flugwetter",
+              "id": 130012713
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "Klimastationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-klima",
+              "id": 130012715
+            },
+            {
+              "category": "layer",
+              "staging": "prod",
+              "label": "MeteoSchweiz-Partnerstationen",
+              "layerBodId": "ch.meteoschweiz.messnetz-partner",
+              "id": 130012717
+            }
+          ],
+          "label": "Messnetze",
+          "id": 15055
+        }
+      ]
+    }
+  }
+}

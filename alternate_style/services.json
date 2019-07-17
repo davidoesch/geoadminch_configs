@@ -1,0 +1,415 @@
+{
+  "topics": [
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "blw"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.swissimage",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "bfs"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "swisstopo"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "astra"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "are"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [],
+      "id": "bafu"
+    },
+    {
+      "defaultBackground": "voidLayer",
+      "plConfig": "https://map.geo.admin.ch/?topic=meteoschweiz&bgLayer=voidLayer&layers=ch.bafu.gefahren-basiskarte&layers_opacity=0.7&layers_visibility=true",
+      "selectedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "id": "meteoschweiz"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.swisstopo.geologie-tiefengeothermie_projekte"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "geothermie"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "gewiss"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.astra.ivs-nat"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "ivs"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.babs.kulturgueter"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "kgs"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.swisstopo.lubis-luftbilder_farbe",
+        "ch.swisstopo.lubis-luftbilder_schwarzweiss"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "luftbilder"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "nga"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "sachplan"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "verteidigung"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.astra.unfaelle-personenschaeden_alle"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "vu"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.bafu.wrz-wildruhezonen_portal",
+        "ch.bafu.wrz-jagdbanngebiete_select"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "wildruhezonen"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.bakom.mobil-antennenstandorte-lte",
+        "ch.bakom.mobil-antennenstandorte-umts",
+        "ch.bakom.mobil-antennenstandorte-gsm",
+        "ch.bakom.radio-fernsehsender",
+        "ch.bakom.mobil-antennenstandorte-5g"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "funksender"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.bazl.luftfahrthindernis"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "aviation"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "cadastre"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.pixelkarte-grau",
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "emapis"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "energie"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau",
+        "ch.swisstopo.swissimage"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "geodesy"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-grau",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.swisstopo.geologie-geocover"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "geol"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": "bgLayer=voidLayer&layers=ch.swisstopo.pixelkarte-farbe-winter,ch.swisstopo.hangneigung-ueber_30,ch.swisstopo-karto.hangneigung,ch.bafu.wrz-jagdbanngebiete_select,ch.bafu.wrz-wildruhezonen_portal,ch.bazl.heliports-gebirgslandeplaetze,ch.swisstopo-karto.schneeschuhrouten,ch.swisstopo-karto.skitouren,ch.swisstopo.skitourenkarte-50.metadata,ch.bav.haltestellen-oev&layers_opacity=0.85,0.5,0.2,0.6,0.6,1,0.8,0.8,1,1&layers_visibility=true,false,true,true,true,false,true,true,false,false",
+      "selectedLayers": [
+        "ch.swisstopo-karto.schneeschuhrouten",
+        "ch.swisstopo-karto.skitouren",
+        "ch.bazl.gebirgslandeplaetze",
+        "ch.bafu.wrz-wildruhezonen_portal",
+        "ch.bafu.wrz-jagdbanngebiete_select",
+        "ch.swisstopo-karto.hangneigung",
+        "ch.swisstopo.pixelkarte-farbe-winter"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [],
+      "id": "schneesport"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [
+        "ch.bakom.notruf"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 2,
+      "activatedLayers": [
+        "ch.bakom.notruf"
+      ],
+      "id": "notruf"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 3,
+      "activatedLayers": [],
+      "id": "inspire"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 3,
+      "activatedLayers": [
+        "ch.swisstopo.swisstlm3d-wanderwege",
+        "ch.bav.haltestellen-oev",
+        "ch.bfs.gebaeude_wohnungs_register",
+        "ch.swisstopo.zeitreihen"
+      ],
+      "id": "ech"
+    }
+  ]
+}
