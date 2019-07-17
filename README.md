@@ -45,7 +45,7 @@ Only using two topics by editing the `services.json` file.
 
 ![two topics](https://github.com/procrastinatio/geoadminch_configs/raw/master/images/two_topics.png "Only two topics")
 
-https://map.geo.admin.ch/?config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Ftwo_topics&lang=de
+Open link https://map.geo.admin.ch/?config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Ftwo_topics&lang=de and click on `Thema wechseln`
 
 ## Alternate GeoJSON style
 
@@ -78,3 +78,6 @@ Using a reddish and italic style for labels, and a triangle instead of circle to
 
 
 https://map.geo.admin.ch/?topic=meteoschweiz&config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Falternate_style&lang=de&layers=ch.meteoschweiz.messwerte-lufttemperatur-10min&bgLayer=ch.swisstopo.pixelkarte-farbe&E=2582578.60&N=1185861.80&zoom=3
+
+
+Just compare with the [original style](https://map.geo.admin.ch/?topic=meteoschweiz&lang=de&layers=ch.meteoschweiz.messwerte-lufttemperatur-10min&bgLayer=ch.swisstopo.pixelkarte-farbe&E=2582506.29&N=1185883.68&zoom=3&catalogNodes=15046,15055)
