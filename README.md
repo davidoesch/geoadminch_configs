@@ -155,27 +155,28 @@ See [Geoadmin Vector Styles Specification](https://github.com/geoadmin/mf-geoadm
 
 ## External WMS layer
 
+A WMS layer is also fully described in the `layersConfig.json` file
 
+    "bln": {
+        "wmsLayers": "ch.bafu.bundesinventare-bln",
+        "attribution": "bafu",
+        "chargeable": false,
+        "searchable": false,
+        "format": "png",
+        "serverLayerName": "ch.bafu.bundesinventare-bln",
+        "wmsUrl": "https://wms.geo.admin.ch",
+        "attributionUrl": "https://www.bafu.admin.ch/bafu/de/home/themen/landschaft/fachinformationen/landschaftsqualitaet-erhalten-und-entwickeln/landschaften-von-nationaler-bedeutung/bundesinventar-der-landschaften-und-naturdenkmaeler-von-national.html",
+        "tooltip": false,
+        "label": "Bundesinventar der Landschaften und Naturdenkmäler",
+        "singleTile": true,
+        "highlightable": false,
+        "background": false,
+        "topics": "ech",
+        "hasLegend": false,
+        "type": "wms",
+        "timeEnabled": false
+     }
 
-   "bln": {
-       "wmsLayers": "ch.bafu.bundesinventare-bln",
-       "attribution": "bafu",
-       "chargeable": false,
-       "searchable": false,
-       "format": "png",
-       "serverLayerName": "ch.bafu.bundesinventare-bln",
-       "wmsUrl": "https://wms.geo.admin.ch",
-       "attributionUrl": "https://www.bafu.admin.ch/bafu/de/home/themen/landschaft/fachinformationen/landschaftsqualitaet-erhalten-und-entwickeln/landschaften-von-nationaler-bedeutung/bundesinventar-der-landschaften-und-naturdenkmaeler-von-national.html",
-       "tooltip": true,
-       "label": "Bundesinventar der Landschaften und Naturdenkmäler",
-       "singleTile": true,
-       "highlightable": false,
-       "background": false,
-       "topics": "ech",
-       "hasLegend": false,
-       "type": "wms",
-       "timeEnabled": false
-    }
-
+Only a few attribute are relevant for this type of layer: `wmsLayer`, `format`, `serverLayerName`, `wmsUrl`,  `attributionUrl`, `label` and `type`
 
 https://map.geo.admin.ch?lang=de&topic=ech&config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Fexternal-wms&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=bln

@@ -8,7 +8,7 @@
        "serverLayerName": "ch.bafu.bundesinventare-bln",
        "wmsUrl": "https://wms.geo.admin.ch",
        "attributionUrl": "https://www.bafu.admin.ch/bafu/de/home/themen/landschaft/fachinformationen/landschaftsqualitaet-erhalten-und-entwickeln/landschaften-von-nationaler-bedeutung/bundesinventar-der-landschaften-und-naturdenkmaeler-von-national.html",
-       "tooltip": true,
+       "tooltip": false,
        "label": "Bundesinventar der Landschaften und Naturdenkmäler",
        "singleTile": true,
        "highlightable": false,
