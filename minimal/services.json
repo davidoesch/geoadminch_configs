@@ -1,0 +1,39 @@
+{
+  "topics": [
+    {
+      "defaultBackground": "voidLayer",
+      "plConfig": "https://map.geo.admin.ch/?topic=meteoschweiz&bgLayer=voidLayer&layers=ch.bafu.gefahren-basiskarte&layers_opacity=0.7&layers_visibility=true",
+      "selectedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 1,
+      "activatedLayers": [
+        "ch.bafu.gefahren-basiskarte"
+      ],
+      "id": "meteoschweiz"
+    },
+    {
+      "defaultBackground": "ch.swisstopo.pixelkarte-farbe",
+      "plConfig": null,
+      "selectedLayers": [],
+      "backgroundLayers": [
+        "ch.swisstopo.swissimage",
+        "ch.swisstopo.pixelkarte-farbe",
+        "ch.swisstopo.pixelkarte-grau"
+      ],
+      "groupId": 3,
+      "activatedLayers": [
+        "ch.swisstopo.swisstlm3d-wanderwege",
+        "ch.bav.haltestellen-oev",
+        "ch.bfs.gebaeude_wohnungs_register",
+        "ch.swisstopo.zeitreihen"
+      ],
+      "id": "ech"
+    }
+  ]
+}

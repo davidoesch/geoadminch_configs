@@ -180,3 +180,15 @@ A WMS layer is also fully described in the `layersConfig.json` file
 Only a few attribute are relevant for this type of layer: `wmsLayer`, `format`, `serverLayerName`, `wmsUrl`,  `attributionUrl`, `label` and `type`
 
 https://map.geo.admin.ch?lang=de&topic=ech&config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Fexternal-wms&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=bln
+
+
+## Minimal layers
+
+You `layersConfig.json` must at least have the layers labeled as **background**, which currently are:
+
+    * ch.swisstopo.swisstlm3d-karte-grau_3d
+    * ch.swisstopo.pixelkarte-farbe
+    * ch.swisstopo.swissimage
+    * ch.swisstopo.pixelkarte-grau
+
+https://map.geo.admin.ch?lang=de&topic=ech&config_url=%2F%2Fpublic.dev.bgdi.ch%2Fconfigs%2Fminimal
